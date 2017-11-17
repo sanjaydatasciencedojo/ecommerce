@@ -140,7 +140,7 @@ define([
                     courseSeatType: this.formatSeatTypes(),
                     discountValue: this.discountValue(),
                     endDateTime: this.formatDateTime(this.model.get('end_date')),
-                    lastEdited: lastEdited ? this.formatLastEditedData(lastEdited) : 'Undefined',
+                    lastEdited: lastEdited ? this.formatLastEditedData(lastEdited) : '',
                     price: price,
                     startDateTime: this.formatDateTime(this.model.get('start_date')),
                     usage: this.usageLimitation(),
